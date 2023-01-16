@@ -17,6 +17,7 @@
 - [👥 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -117,3 +118,7 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
