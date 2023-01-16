@@ -1,5 +1,6 @@
 import Book from './modules/book.js';
 import showBook from './modules/books-display.js';
+import { DateTime } from './modules/luxon.js';
 
 const formBtn = document.querySelector('#form-button');
 const books = JSON.parse(localStorage.getItem('books'));
@@ -22,6 +23,10 @@ if (books !== null) {
     showBook(book.id, book.title, book.author);
   });
 }
+
+const time = document.getElementById('time');
+const now = DateTime.now();
+time.innerText = now.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
 
 const booksTab = document.getElementById('books-tab');
 const addTab = document.getElementById('addBook-tab');
